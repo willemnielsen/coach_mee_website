@@ -1,0 +1,22 @@
+#hero-section {
+  background: url('../../public/images/point4.jpeg') top/cover no-repeat;
+  /* background-color: aqua; */
+  position: relative;
+  top: 50px;
+  width: 100%;
+  padding: 200px;
+  text-align: left;
+  z-index: -1;
+  /* border-color: black;
+  border-style: solid; */
+
+}
+
+.title {
+  position: relative;
+  top: 80%;
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+}

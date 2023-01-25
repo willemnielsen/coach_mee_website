@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    document.body.style.backgroundColor = 'lightgray';
+    document.body.style.backgroundColor = 'white';
   }, []);
   return (
       <Router className='app'>
