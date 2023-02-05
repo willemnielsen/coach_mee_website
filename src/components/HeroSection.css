@@ -1,22 +1,104 @@
 #hero-section {
-  background: url('../../public/images/point4.jpeg') top/cover no-repeat;
-  /* background-color: aqua; */
-  position: relative;
-  top: 50px;
+  position: absolute;
+  /* background-color: lightblue; */
+  left: 0px;
+  top: 55px;
   width: 100%;
-  padding: 200px;
-  text-align: left;
-  z-index: -1;
-  /* border-color: black;
-  border-style: solid; */
-
+  height: 80%;
+  /* padding: 100px; */
+  /* margin: 50px; */
+  /* margin-right: 100px; */
+  /* background-image: url('../../public/images/pointing2.png'); */
+  /* background-repeat: no-repeat;
+  background-size: 1500px 100%; */
+  /* background-position: -50px 0px; */
+  /* left: 0;
+  bottom: 0;
+  border: 2px solid;
+  color: pink;
+  resize: both;
+  overflow: scroll; */
 }
 
-.title {
-  position: relative;
-  top: 80%;
+@media (max-width: 768px) {
+  #hero-section {
+    height: 87.5%;
+  }
+}
+
+@media (max-width: 576px) {
+  #hero-section {
+    height: 92.5%;
+  }
+}
+
+
+.other {
+  background-image: url('../../public/images/point6.png');
+  background-repeat: no-repeat;
+  background-size: 1300px 100%;
+  background-position: -150px 0px;
+  position: absolute;
+  background-color: blue;
+  left: 0px;
+  top: 50px;
+  height: 600px;
+  width: 100%;
+}
+
+#title {
+  bottom: 5%;
+  /* border: 2px solid; */
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
   color: black;
   margin-bottom: 20px;
+  z-index: 1;
+  line-height: 1.2;
+  height: 30%;
+  text-align: left;
+  justify-content: bottom-center;
+  max-width: 500px;
+}
+
+#image {
+  /* border: 2px solid; */
+  height: 70%;
+  background-image: url('../../public/images/pointing2.png') ;
+  background-repeat: no-repeat;
+  background-size: 800px 550px;
+  background-position: -300px 0px;
+}
+
+.row {
+  margin-left: 0px;
+}
+
+
+@media (min-width: 768px) {
+  #title {
+    height: fit-content;
+  }
+}
+
+@media (min-width: 768px) {
+  #image {
+    height: 100%;
+  }
+}
+
+#title-text {
+  border: 2px solid;
+  font: 400 "Roboto", sans-serif;
+  color: black;
+  /* position: inherit; */
+  top: 300px;
+  line-height: normal;
+}
+
+.hero-button {
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 20px;
+  width: 90%
 }
