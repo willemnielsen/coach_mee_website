@@ -6,11 +6,11 @@ export default class HeroSection extends Component {
   render() {
     return (
       <>
-          <Container id='hero-section'>
-            <Row>
+          <Container id='hero-section' fluid>
+            <Row id='title' className='mt-auto'>Head Coach of Vassar Men's Basketball</Row>
+            <Row id='hero-row'>
               <Button className='hero-button'>ABOUT ME</Button>
             </Row>
-            <Row id='title' className='mt-auto'>Head Coach of Vassar Men's Basketball</Row>
           </Container>
       </>
     )

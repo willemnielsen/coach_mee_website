@@ -9,9 +9,9 @@ export default class NavBar extends Component {
   render() {
     return (
     <Navbar bg='light gray' expand="lg" id='nav1' className='fixed-top'>
-      <Container>
+      <Container id='nav-container' fluid>
         <Navbar.Brand href="#home">Ryan Mee</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='ml-auto' id='toggle' />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
