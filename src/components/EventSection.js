@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 
 export default class EventSection extends Component {
   render() {
+    // testing
     return (
       <Container>
         <Column>
