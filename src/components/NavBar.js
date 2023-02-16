@@ -15,7 +15,7 @@ function NavBar() {
     <>
     <Navbar expanded={expanded} bg='light gray' expand="lg" id='nav1' className='fixed-top'>
       <Container id='nav-container' fluid>
-        <Navbar.Brand href="#home">Ryan Mee</Navbar.Brand>
+        <Navbar.Brand href="/">Ryan Mee</Navbar.Brand>
         <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" className='ml-auto' id='toggle' />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
           <Nav className="me-auto">
