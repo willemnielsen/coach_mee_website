@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import Home from './components/pages/Home';
-import Register from './components/pages/Register';
+import About from './components/pages/About';
 import './App.css';
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -10,15 +11,16 @@ function App() {
     document.body.style.backgroundColor = 'white';
   }, []);
   return (
-      <Router className='app'>
-        <Routes>    
-          <Route path='/' element={<Home />} />
-          <Route path='/register' element={<Register />} /> 
-          {/* <Route path='/' element={<Home />} />
-          <Route path='/' element={<Home />} />
-          <Route path='/' element={<Home />} /> */}
-        </Routes>
-      </Router>
+      <>
+        
+        <Router className='app'>
+        <NavBar/>
+          <Routes>    
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} /> 
+          </Routes>
+        </Router>
+      </>
   );
 }
 

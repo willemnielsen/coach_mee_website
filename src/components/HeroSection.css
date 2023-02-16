@@ -85,6 +85,12 @@
     width: 100%;
     height: 45px;
   }
+
+  .hero-button:active {
+    background-color: lightgray;
+    color: black;
+  }
+
   #hero-section .row {
     margin-left: 0;
     margin-right: 0;
@@ -94,4 +100,10 @@
 .hero-button:hover {
   background-color: lightgray;
   color: black;
+}
+
+.hero-button:active {
+  background-color: rgb(191, 191, 191) !important;
+  color: black !important;
+  border: none !important;
 }
