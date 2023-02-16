@@ -10,7 +10,7 @@ export default class About extends Component {
       {/* make container with two cols  */}
       <Container id='test' fluid >
         <Col id='headshot'>
-          <img src={pfp} />
+          <img src={pfp} alt='Ryan Mee Headshot' />
         </Col>
         <Col id='about'>
           <h1>About Me</h1>
