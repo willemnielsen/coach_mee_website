@@ -9,6 +9,8 @@ import NavBar from './components/NavBar';
 function App() {
   useEffect(() => {
     document.body.style.backgroundColor = 'white';
+    document.title = 'Ryan Mee';
+    
   }, []);
   return (
       <>
