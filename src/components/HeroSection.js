@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Button } from 'react-bootstrap'; 
+import { Container, Row, Button } from 'react-bootstrap'; 
 import './HeroSection.css'
 
 export default class HeroSection extends Component {
