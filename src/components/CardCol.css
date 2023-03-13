@@ -1,0 +1,11 @@
+#card-button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+}
+
+#card-button:hover {
+    background-color: gray;
+}
