@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Container, Col} from 'react-bootstrap';
-import './About.css'
+import '../styling/About.css'
 import pfp from "../../images/pfp.jpeg"
 
 export default class About extends Component {
