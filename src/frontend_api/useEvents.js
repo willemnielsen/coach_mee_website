@@ -7,8 +7,8 @@ function useEvents() {
     useEffect(() => {
         fetch('http://localhost:3001/events')
         .then(response => response.json())
-        .then(response => {
-            setEvents(response);
+        .then(data => {
+            setEvents(data);
             console.log(events);
         })
         .catch(error => {

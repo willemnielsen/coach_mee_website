@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import Events from './Events'
 import CardRow from './CardRow'
 import './styling/EventSection.css'
 
@@ -14,7 +15,7 @@ export default class EventSection extends Component {
           marginTop: '30px'}}>
           Upcoming Events
         </Row>
-        <CardRow/>
+        <Events/>
         <Row>
           <Link  to='/events' style={{
             margin: '15px 30px',
