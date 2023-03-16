@@ -2,7 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './NavBar.css'
+import './styling/NavBar.css'
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 

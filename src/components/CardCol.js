@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
-import './CardCol.css';
+import './styling/CardCol.css';
 
 const CardCol = ({title, text, imgSrc}) => {
   return (
-    <Col style={{ marginTop: '20px'}} lg={4} md={5} sm={5}>
+    <Col style={{ marginTop: '20px'}} lg={6}>
       <Card>
         <Card.Img variant="top" src={imgSrc} />
         <Card.Body>

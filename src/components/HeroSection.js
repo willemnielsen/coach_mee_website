@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Row, Button } from 'react-bootstrap'; 
-import './HeroSection.css'
+import './styling/HeroSection.css'
 
 export default class HeroSection extends Component {
   render() {
