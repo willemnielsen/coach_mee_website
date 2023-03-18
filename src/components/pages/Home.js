@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <Container id='home' fluid>
         <HeroSection />
-        <EventSection />
+        {/* <EventSection /> */}
       </Container>
     )
   }
