@@ -27,7 +27,7 @@ function NavBar() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <div class="the-blur"></div>
+        <div className="the-blur"></div>
       </Container>
     </Navbar>
     </>

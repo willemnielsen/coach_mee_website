@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Events from './Events'
-import CardRow from './CardRow'
 import './styling/EventSection.css'
 
 export default class EventSection extends Component {
@@ -25,7 +24,6 @@ export default class EventSection extends Component {
           </Link>
         </Row>
       </Row>
-     
     )
   }
 }
