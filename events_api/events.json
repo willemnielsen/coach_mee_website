@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Event 1",
+        "pathName": "springtuneup",
         "text": "Event 1 Description",
         "imgSrc": "event_1.png"
     }

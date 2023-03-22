@@ -3,7 +3,7 @@ import { Row } from 'react-bootstrap';
 import CardCol from './CardCol';
 import './styling/CardRow.css';
 
-const Events = () => {
+const EventCards = () => {
   const [events, setEvents] = useState([]);
   useEffect(() => {
     const dataFetch = async () => {
@@ -25,6 +25,7 @@ const Events = () => {
               // title={event.title}
               // text={event.text}
               imgSrc={event.imgSrc}
+              pathName={event.pathName}
           />
         ))
       ) : (
@@ -35,4 +36,4 @@ const Events = () => {
   )
 }
 
-export default Events;
+export default EventCards;
