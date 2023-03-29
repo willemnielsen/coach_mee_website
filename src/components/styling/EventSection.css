@@ -1,5 +1,8 @@
-#event-section .row {
-    margin-left: 30px;
-    margin-right: 30px;
+#event-section {
+  max-width: 1000px;
 }
 
+#event-section .row {
+  margin-left: 30px;
+  margin-right: 30px;
+}
