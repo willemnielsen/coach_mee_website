@@ -21,8 +21,9 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "PORT=3000 react-scripts start",
-    "build": "react-scripts build",
+    "start": "node events_api/events.js & PORT=3000 react-scripts start",
+    "build": "node events_api/events.js & react-scripts build",
+    "api": "node events_api/events.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
