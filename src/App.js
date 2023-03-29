@@ -4,6 +4,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import './App.css';
 import NavBar from './components/NavBar';
+import SpringTuneUp from './components/SpringTuneUp';
 
 
 function App() {
@@ -13,13 +14,13 @@ function App() {
     
   }, []);
   return (
-      <>
-        
+      <>     
         <Router className='app'>
         <NavBar/>
           <Routes>    
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} /> 
+            <Route path='/events/springtuneup' element={<SpringTuneUp img1Src='event_1.png' img2Src='event_1_back.png' />} />
           </Routes>
         </Router>
       </>

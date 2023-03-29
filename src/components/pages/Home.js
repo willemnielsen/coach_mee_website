@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container } from 'react-bootstrap'
 import HeroSection from '../HeroSection'
 import EventSection from '../EventSection'
-import './Home.css'
+import '../styling/Home.css'
 
 export default class Home extends Component {
   render() {

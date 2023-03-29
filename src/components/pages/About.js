@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import {Container, Col} from 'react-bootstrap';
-import './About.css'
-import pfp from "../../images/pfp.jpeg"
+import '../styling/About.css'
 
 export default class About extends Component {
   render() {
@@ -10,7 +9,7 @@ export default class About extends Component {
       {/* make container with two cols  */}
       <Container id='test' fluid >
         <Col id='headshot'>
-          <img src={pfp} alt='Ryan Mee Headshot' />
+          <img src={"images/pfp.jpeg"} alt='Ryan Mee Headshot' />
         </Col>
         <Col id='about'>
           <h1>About Me</h1>
