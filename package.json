@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "node events_api/events.js & PORT=3000 react-scripts start",
-    "build": "node events_api/events.js & react-scripts build",
+    "build": "react-scripts build",
     "api": "node events_api/events.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

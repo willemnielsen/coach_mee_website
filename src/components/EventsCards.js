@@ -7,7 +7,7 @@ const EventCards = () => {
   const [events, setEvents] = useState([]);
   useEffect(() => {
     const dataFetch = async () => {
-      const response = await fetch("http://localhost:3001/events");
+      const response = await fetch("https://eventsapi-production.up.railway.app/events");
       const data = await response.json();
       setEvents(data);
       console.log(data);
