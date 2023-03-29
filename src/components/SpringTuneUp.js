@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Col, Image } from "react-bootstrap";
 
 const SpringTuneUp = ({ img1Src, img2Src }) => {
-  console.log(img1Src);
   return (
     <>
       <Container fluid>
