@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './styling/CardCol.css';
 
 const CardCol = ({id, title, pathName, text, imgSrc}) => {
@@ -11,11 +10,11 @@ const CardCol = ({id, title, pathName, text, imgSrc}) => {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{text}</Card.Text>
-          <Link to={`events/${pathName}`}>
+          <a href="https://coachmeellc.aidaform.com/spring-tuneup-registration" target="_blank" rel="noreferrer" >
             <Button id='card-button'>
               Register
             </Button>
-          </Link>
+          </a>
         </Card.Body>
       </Card>
     </Col>
