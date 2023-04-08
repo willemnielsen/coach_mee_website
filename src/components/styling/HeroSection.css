@@ -3,7 +3,7 @@
   display: flex;
   top: 55px;
   height: 90vh;
-  background-image: url('../../../public/images/WPI_Huddle.jpeg');
+  background-image: url("../../../public/images/WPI_Huddle.jpeg");
   background-repeat: no-repeat;
   margin-left: -15px;
   margin-right: -15px;
@@ -59,7 +59,9 @@
   #hero-section {
     background-position: -700px 0px;
   }
+}
 
+@media (min-width: 768px) {
   #image {
     height: 100%;
   }
